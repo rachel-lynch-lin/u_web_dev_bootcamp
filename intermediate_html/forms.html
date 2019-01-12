@@ -23,31 +23,37 @@
     <li>post - sending data to be added to a database</li>
   </ul>
 
-<h3>The <em>input</em> tag</h3>
+<h2>The <em>input</em> tag</h2>
 
   <p>The input tag creates interactive controls. The "type" attribute determines the type of input.</p>
 
 <h3>A Simple Form</h3>
-  <p>Two ways of attaching a label to each input.</p>
-  <h4>Login V1</h4>
+
+  <p>Two ways of attaching a label to each input. Check the code to see the difference</p>
+
+  <h4>Login V1 - Labels</h4>
 
 <!-- action - where the form sends data to -->
 <!-- method - what HTTP method (get/post) -->
 <!-- the form tag is a block level element -->
 
   <form>
+
     <label>
       Username:
       <input type="text" placeholder="Username" name="Username">
     </label>
+
     <label>
       Password:
       <input type="password" placeholder="Password" name="Password">
     </label>
+
     <input type="submit">
+
   </form>
 
-  <h4>Login V2</h4>
+  <h4>Login V2 - Labels</h4>
   
   <form>
     
@@ -59,6 +65,49 @@
     
     <input type="submit">
 
+  </form>
+
+<h2>Simple Validations</h2>
+
+  <p>The 'required' attribute validates that an input is not empty.</p>
+  <p>There are also type validations.</p>
+
+  <h4>Login V3 - Validations</h4>
+  
+    <form>
+      
+      <label for="username">Username:</label>
+      <input id="username" type="text" placeholder="Username" name="Username" required>
+      
+      <label for="password">Password:</label>
+      <input id="password" type="password" placeholder="Password" name="Password" required>
+      
+      <input type="submit">
+
+    </form>
+
+<h2>Dropdowns and Radio Buttons</h2>
+
+  <p>Do you prefer cats or dogs?</p>
+  
+  <form>
+    <label for="dogs">Dogs:</label>
+    <input id="dogs" type="radio" name="petChoice" value="DOGS">
+    
+    <label for="cats">Cats:</label>
+    <input id="cats" type="radio" name="petChoice" value="CATS">
+
+    <p>What's your favorite mood?</p>
+
+    <select name="color">
+      <option value="happy">:)</option>
+      <option value="sad">:(</option>
+      <option value="neutral">:|</option>
+    </select>
+
+    <textarea name="paragraph" rows="3" cols="10"></textarea>
+
+    <button>Go!</button>
   </form>
 
 </body>
