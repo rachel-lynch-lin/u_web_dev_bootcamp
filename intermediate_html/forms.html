@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>HTML Forms</title>
+</head>
+<body>
+
+<h1>HTML Forms</h1>
+
+<p>How we get user data.</p>
+
+<h2>The <em>form</em> tag</h2>
+
+  <ul>
+    <li>action - the URL to send form data to</li>
+    <li>method - the type of HTTP request</li>
+  </ul>
+
+<h3>HTTP Requests - GET/POST</h3>
+
+  <ul>
+    <li>get - get information or retrieve info</li>
+    <li>post - sending data to be added to a database</li>
+  </ul>
+
+<h3>The <em>input</em> tag</h3>
+
+  <p>The input tag creates interactive controls. The "type" attribute determines the type of input.</p>
+
+<h3>A Simple Form</h3>
+  <p>Two ways of attaching a label to each input.</p>
+  <h4>Login V1</h4>
+
+<!-- action - where the form sends data to -->
+<!-- method - what HTTP method (get/post) -->
+<!-- the form tag is a block level element -->
+
+  <form>
+    <label>
+      Username:
+      <input type="text" placeholder="Username" name="Username">
+    </label>
+    <label>
+      Password:
+      <input type="password" placeholder="Password" name="Password">
+    </label>
+    <input type="submit">
+  </form>
+
+  <h4>Login V2</h4>
+  
+  <form>
+    
+    <label for="username">Username:</label>
+    <input id="username" type="text" placeholder="Username" name="Username">
+    
+    <label for="password">Password:</label>
+    <input id="password" type="password" placeholder="Password" name="Password">
+    
+    <input type="submit">
+
+  </form>
+
+</body>
+</html>
