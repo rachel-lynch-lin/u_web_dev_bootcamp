@@ -1,0 +1,26 @@
+div {
+  background: #95a5a6;
+}
+
+h1 {
+  background: #3498db;
+}
+
+span {
+  color: #ecf0f1;
+}
+
+body {
+  background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTan4UNkko9i036i5vRCrfMTjZF7Z2bEbd_bsEBtx2x2-mc3pIA);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h2 {
+    /*long format*/
+    /*border-width:500px;
+    border-color: purple;
+    border-style: dotted;*/
+    /*shorter syntax*/
+    border: 2px dotted rgb(230, 80, 100);
+}
