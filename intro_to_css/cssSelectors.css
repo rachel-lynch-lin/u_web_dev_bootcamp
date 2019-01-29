@@ -1,0 +1,23 @@
+body {
+    background: orange
+}
+
+li {
+    border: 2px solid red;
+}
+
+#special {
+    background: yellow;
+}
+
+#other {
+    background: gold;
+}
+
+.to-do {
+    text-decoration: line-through;
+}
+
+#less-special {
+    background: brown;
+}
