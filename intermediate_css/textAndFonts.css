@@ -1,11 +1,11 @@
 /*font-family*/
 
 p {
-  font-family: "Arial";
+  font-family: Source Sans Pro;
 }
 
 h1 {
-  font-family: Georgia;
+  font-family: Raleway;
 }
 
 /*font-size*/
@@ -33,7 +33,7 @@ h2 {
 /*font-weight*/
 
 p {
-  font-weight: bold;
+  font-weight: 400;
 }
 
 h1 {
