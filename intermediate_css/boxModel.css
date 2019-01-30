@@ -1,0 +1,28 @@
+p {
+
+/*Content - Width and Height*/
+width: 50%;
+
+/*Border*/
+
+border: 2px solid blue;
+
+/*Padding*/
+
+/*padding: 10px; (this applys to all padding for the element) */
+padding-left: 40px;
+
+/*Margin*/
+/*margin: 100px; (doing this would make all margins set to 100px*/
+
+/*margin-top: 500px; (this singles out one value of the margin)*/
+/*margin: 20px 40px 500px 100px; (this sets each individually)*/
+/*margin: 0 auto 0 auto; (auto helps to center items for us and can omit px if value equals 0) */
+  
+margin: 0 auto; 
+margin: 50px 20px;
+}
+
+
+
+
