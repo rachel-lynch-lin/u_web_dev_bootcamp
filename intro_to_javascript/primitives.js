@@ -44,3 +44,13 @@ null
 undefined
 
 
+// Variables that are declared but not intialized are undefined
+// The following variables are undefined
+var name;
+var age;
+
+// null is "explicitly nothing"
+var currentPlayer = "charlie";
+currentPlayer = null;   // game over
+
+
