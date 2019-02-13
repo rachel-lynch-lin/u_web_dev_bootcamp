@@ -38,3 +38,51 @@ function greet(person1, person2, person3) {
 greet("Harry", "Ron", "Hermione");
 
 // If a argument is left off it would just print undefined rather than breaking the code
+
+// The Return Keyword - When we want a function to send back an output value
+// Input -> Function -> Output 
+// "console.log" just prints to the console which is helpful to a developer
+// "return" makes the output usable after the function is called
+
+function square2(x) {
+  return x * x;
+}
+
+"4 squared is " + square2(4); 
+
+// The "return" keyword to output a value from a function
+
+// This function capitalizes the first char in a string:
+
+function capitalize(str) {
+  return str.charAt(0).toUpperCase() + str.slice(1);
+}
+var city = "paris"; // "paris"
+var capital = capitalize(city); // "Paris"
+
+// We can capture the returned value in a variable
+
+// The "return" keyword stops the execution of a function
+function capitalize2(str) {
+  if(typeof str === "number") {
+    return "That's not a string!"
+  }
+  return str.charAt(0).toUpperCase() +str.slice(1);
+}
+
+var city2 = "london"; // "london"
+var capital2 = capitalize2(city2);  // "London"
+
+var num2 = 37;
+var captial2 = capitalize2(num2); // "That's not a string!"
+
+// Another Syntax - Function Declaration vs. Function Expression
+// function declaration
+function firstLetter(str) {
+  return str.charAt(0);
+}
+
+// function expression
+var firstLetter = function(str) {
+  return str.charAt(0);
+}
