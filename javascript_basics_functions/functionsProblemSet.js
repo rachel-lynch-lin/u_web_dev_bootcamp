@@ -60,8 +60,9 @@ factorial(0);   // 1
 // and returns the snake_cased version.
 function kebabToSnake(str) {
   // replace all "-"'s with "_"'s
-   
+  var newStr = str.replace(/-/g , "_");
   // return str
+  return newStr;
 }
 
 kebabToSnake("hello-world");    // "hello_world"
